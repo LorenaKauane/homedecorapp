@@ -4,6 +4,8 @@ Projet for learning with React Native + Redux which send all Post for the back-e
 
 free!
 
+! [Demo] (demo/app.gif)
+
 ## Getting Started
 
 ## Prerequisites

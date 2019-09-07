@@ -1,8 +1,8 @@
-import {POST_LIST, POST_CREATE} from './types';
+import {POST_LIST, POST_CREATE, POST_UPDATE} from './types';
 import axios from 'axios';
 import {ToastAndroid} from 'react-native';
 
-const URL = 'http://192.168.0.15:3000/api/home-decor/post';
+const URL = 'http://192.168.0.15:3000/home-decor/api/post';
 
 export const postList = () => {
   return dispatch => {
@@ -30,4 +30,11 @@ export const postCreate = (post, navigation) => {
         ToastAndroid.show('Ops... Aconteceu alguma coisa.', ToastAndroid.SHORT);
       });
   };
+};
+
+export const postUpdate = ({prop, value}) => {
+  return {
+    type: POST_UPDATE,
+    payload: { prop, value }
+  }
 };
