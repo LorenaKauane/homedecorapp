@@ -20,9 +20,11 @@ $ npm install
 ## Routes
 
 The base URL is: http://localhost:3000/home-decor/api/
-The endpoints: /user
-               /post
-               /categories
+The endpoints: 
+
+- /user
+- /post
+- /categories
 
 ## Built With
 - ReactNative 
