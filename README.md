@@ -4,7 +4,7 @@ Projet for learning with React Native + Redux which send all Post for the back-e
 
 free!
 
-! [] (demo/app.gif)
+- Demo
 <img src='./demo/app.gif'>
 
 ## Getting Started
