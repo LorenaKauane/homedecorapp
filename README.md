@@ -36,3 +36,7 @@ The endpoints:
 - redux
 - redux-thunk
 - eslint
+
+## Open tasks
+- Dynamic categories 
+- Login Screen
